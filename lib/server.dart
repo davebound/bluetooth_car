@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 // everything is a widget and every widget is a class
 class HomeServer extends StatelessWidget {
   // cant change over time      THIS SUPPORTS HOT RELOAD. DRIER CODE Dont Repeat Yourself DRY
-
+  // test change to server branch
   @override
   Widget build(BuildContext context) {
     return Scaffold(
