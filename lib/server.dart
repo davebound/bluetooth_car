@@ -5,6 +5,19 @@ import 'package:flutter/material.dart';
 class HomeServer extends StatelessWidget {
   // cant change over time      THIS SUPPORTS HOT RELOAD. DRIER CODE Dont Repeat Yourself DRY
   // test change to server branch
+
+  /*
+  TextEditingController controller;
+
+  @override
+  void initState() {
+    super.initState();
+    controller = TextEditingController(text: "Initi");
+
+  }
+
+   */
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,8 +43,19 @@ class HomeServer extends StatelessWidget {
                   ),
                   color: Colors.red,
                   hoverColor: Colors.blue
-                //elevation: 30,
-              )),
+                  //elevation: 30,
+                  )),
+          TextField(
+            //enabled:false,
+            //showCursor: false,
+            //controller:controller,
+            //maxLines:2
+            //child:Text('another button')
+            //color: Colors.red,
+            decoration: InputDecoration(
+              hintText: 'Hint',
+            ),
+          )
         ],
       ),
 
